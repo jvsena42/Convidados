@@ -1,4 +1,4 @@
-package com.app.convidados.ui.present
+package com.app.convidados.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.app.convidados.R
+import com.app.convidados.viewmodel.PresentViewModel
 
 class PresentFragment : Fragment() {
 
